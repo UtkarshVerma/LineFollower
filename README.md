@@ -1,8 +1,10 @@
 # Line Follower 
+
 ![The front view](/Pictures/v2/DSCN2881.jpg)
 
 This repository contains the relevant files for a Line Follower I made. It is based on PIC16F84A and is somewhat inherited from this great [instructable](https://www.instructables.com/id/Line-Follower-Robot/) by **Mohammad Yousefi**.
 I'd like to add that the schematic file is built using [Proteus](https://www.labcenter.com/) and most of the boards have also been designed using it, except for the extension PCBs, which have been designed using [eagleCAD](https://www.autodesk.com/products/eagle/overview).
+
 ---
 ## The Differences
 The robot I made differs by large from the one made in the instructable. So **you'll have to be a bit careful** if you're thinking of merging both these projects. The differences are as follows:
