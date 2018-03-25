@@ -2,7 +2,9 @@
 
 ![The front view](/Pictures/v2/DSCN2881.JPG)
 
-This repository contains the relevant files for a Line Follower I made. It is based on PIC16F84A and is somewhat inherited from this great [instructable](https://www.instructables.com/id/Line-Follower-Robot/) by **Mohammad Yousefi**.
+[**Line Follower Test Video on YouTube**](https://youtu.be/Ljhs3s-MkIQ)
+
+This repository contains the relevant files for a Line Follower I made. It is based on PIC16F84A and is somewhat inherited from this great [instructable](https://www.instructables.com/id/Line-Follower-Robot/) by **Mohammad Yousefi**. I've also added his original instructions as a rar named "Mohammad Yousefi Resources" to this repo.
 I'd like to add that the schematic file is built using [Proteus](https://www.labcenter.com/) and most of the boards have also been designed using it, except for the extension PCBs, which have been designed using [eagleCAD](https://www.autodesk.com/products/eagle/overview).
 
 ---
@@ -11,7 +13,7 @@ The robot I made differs by large from the one made in the instructable. So **yo
 * I wanted to use Lithium-ion batteries to power this robot up, so I dropped the whole messy AA battery system;
 * I've used a Chinese motor driver named **Mini L298 Motor Driver** rather than the **bulky L298 module or IC**. Luckily there's already an [instructable](https://www.instructables.com/id/Tutorial-for-Dual-Channel-DC-Motor-Driver-Board-PW/#discuss) for it.
     > However, there's no issue since the input mechanisms are identical in both, except for **PWM**.
-* I've integrated the battery connection toggler, [**Boggler**]() in my project to enable clean and easy toggling between charging and usage modes.
+* I've integrated the battery connection toggler, [**Boggler**](https://www.instructables.com/id/Battery-Connection-TogglerSeries-Parallel-Boggler/) in my project to enable clean and easy toggling between charging and usage modes.
 * I've made the PCBs **detachable** using connectors and extension PCBs. This aids further modification of the robot, so you can build upon it easily in the future.
 * The inner part of this robot has been left intentionally empty for **allowing the addition of more circuits**.
 * The code for this robot has been worked up from scratch in **C programming language**, and due to this the line detection algorithm is also different.
