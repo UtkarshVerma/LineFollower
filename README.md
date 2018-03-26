@@ -26,7 +26,8 @@ The code is written in **C** as stated earlier. It has been written to allow eas
 1. `normPWM` : The PWM duty for **forward motion**.
 2. `fastPWM` : The PWM duty for **extreme turns**.
 3. `slowPWM` : The PWM duty for **slow turns**.
-Modifying these values affects the motor speed during their respective phases.
+
+Modifying these values affects the motor speed during their respective phases. There are other variables as well, you may modify them by referring to the code comments.
 
 ### Algorithm
 To detect lines, this robot does the following:
